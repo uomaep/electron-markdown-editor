@@ -29,7 +29,7 @@ export default defineConfig(
       '@typescript-eslint/no-unused-vars': [
         'warn',
         {
-          argIgnorePattern: '^_',
+          argsIgnorePattern: '^_',
           varsIgnorePattern: '^_' // 변수명 _로 시작하면 무시
         }
       ],
