@@ -33,8 +33,9 @@ export default defineConfig(
           varsIgnorePattern: '^_' // 변수명 _로 시작하면 무시
         }
       ],
+      '@typescript-eslint/explicit-function-return-type': 'off',
       '@typescript-eslint/no-explicit-any': 'warn', // Any 타입 사용 경고
-      '@typescript-eslint/explict-module-boundary-types': 'off',
+      '@typescript-eslint/explicit-module-boundary-types': 'off',
       '@typescript-eslint/no-non-null-assertion': 'warn', // ! 연산자 사용 경고
       'no-unused-vars': 'off',
       'no-shadow': 'off',
